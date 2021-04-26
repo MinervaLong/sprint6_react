@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Book = () => {
+const Book = (props) => {
 
     return(
-        <h2>Viatge a la lluna</h2> 
+        <h2>{props.title}</h2> 
     )
  
 }
